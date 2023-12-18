@@ -1,0 +1,13 @@
+.mainSendPromoCode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ready {
+  align-self: flex-end;
+}
+
+.sendButton {
+  margin: 10px;
+}

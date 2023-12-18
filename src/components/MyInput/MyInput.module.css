@@ -1,0 +1,19 @@
+.myInput input {
+  width: 400px;
+  background-color: silver;
+  border: none;
+  height: 40px;
+  border-radius: 7px;
+}
+
+@media (max-width: 768px) {
+  .myInput input {
+    width: 240px;
+  }
+}
+
+@media (max-width: 480px) {
+  .myInput input {
+    width: 100%;
+  }
+}

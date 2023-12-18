@@ -1,0 +1,18 @@
+.inputEmail {
+  border: 1px solid rgb(183, 183, 183);
+  border-radius: 10px;
+  height: 24px;
+  width: 160px;
+}
+.sendMail {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonSendMail {
+  margin-top: 10px;
+  width: 100%;
+}
+a {
+  color: rgb(97, 97, 255);
+}

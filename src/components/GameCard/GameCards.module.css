@@ -1,0 +1,19 @@
+.card {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.defaultInscription {
+  font-size: 6vw;
+  color: rgba(0, 0, 0, 0.1);
+  transform: rotate(17deg);
+}
+@media (max-width: 650px) {
+  .defaultInscription {
+    font-size: 8vw;
+  }
+}

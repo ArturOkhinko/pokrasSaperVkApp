@@ -1,0 +1,20 @@
+.sliderImg {
+  width: 100%;
+  border-radius: 10px;
+}
+.card {
+  display: flex;
+  align-self: center;
+  height: 100%;
+}
+.scroll {
+  margin: 0 16px 0 16px;
+}
+@media (max-width: 700px) {
+  .card {
+    flex-direction: column;
+  }
+  .card img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,54 @@
+.mainDiscount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.discount {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 10px 10px 10px;
+}
+.buttonDiscount {
+  display: flex;
+  justify-content: space-around;
+}
+.pageButton {
+  margin-left: 10px;
+}
+.authorisation {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.maxDiscount {
+  color: rgb(87, 87, 87);
+  font-size: 14px;
+  align-self: flex-end;
+}
+@media (max-width: 1000px) {
+  .discount {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .buttonDiscount {
+    width: 100%;
+  }
+}
+
+@media (max-width: 620px) {
+  .mainDiscount {
+    margin-top: 24px;
+    flex-direction: column;
+  }
+  .authorisation {
+    margin-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  .mainDiscount {
+    margin-top: 30px;
+  }
+}

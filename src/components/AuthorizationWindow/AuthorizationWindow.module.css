@@ -1,0 +1,39 @@
+.authorizationWindow {
+  display: flex;
+  flex-direction: column;
+}
+
+.closeButton {
+  align-self: flex-end;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px 10px 10px;
+  text-align: center;
+}
+
+.authorisation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70px;
+  margin: 0 10px 10px 10px;
+}
+
+.input {
+  width: 50%;
+  height: 24px;
+  border-radius: 10px;
+  border: 1px solid rgb(183, 183, 183);
+}
+
+.inputAuthorisation {
+  display: flex;
+  align-items: center;
+}
+
+.statusInputEmail {
+  margin: 0 10px 0 10px;
+}
